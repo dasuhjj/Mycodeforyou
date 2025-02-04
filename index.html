@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>मेरी फोटो गैलरी</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>मेरी फोटो गैलरी</h1>
+    </header>
+    
+    <div class="upload-section">
+        <h2>upload a photo</h2>
+        <form action="upload.php" method="POST" enctype="multipart/form-data">
+            <label for="fileUpload">फोटो चुनें:</label>
+            <input type="file" id="fileUpload" name="fileUpload" accept="image/*" required>
+            <button type="submit">upload</button>
+        </form>
+    </div>
+
+    <footer>
+        <p> DASU SUTHAR </p>
+    </footer>
+  </body>
+</html>
